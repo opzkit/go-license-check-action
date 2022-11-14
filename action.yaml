@@ -1,0 +1,43 @@
+name: "Go License check Action"
+description: "Run the Go license checker"
+author: "opzkit"
+inputs:
+  packages:
+    description: 'Run go license check on these packages.'
+    required: false
+    default: './...'
+  go-version-file:
+    description: 'Path to the go.mod file.'
+    required: false
+  go-version:
+    description: 'The go version to use when running go-licenses check'
+    required: false
+  check-latest:
+    description: 'Set this option to true if you want the action to always check for the latest available version that satisfies the version spec'
+    default: false
+  go-licenses-version:
+    description: 'The go license check version to use'
+    required: false
+    default: 'latest'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Check out code into the Go module directory
+      uses: actions/checkout@v3
+    - name: Set up Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: ${{ inputs.go-version }}
+        go-version-file: ${{ inputs.go-version-file }}
+        check-latest: ${{ inputs.check-latest }}
+    - name: Get go-licenses check
+      run: go install github.com/google/go-licenses@${{ inputs.go-licenses-version }}
+      shell: bash
+    - name: Run go-licenses check
+      run: go-licenses check ${{ inputs.packages }} 2>&1
+      shell: bash
+
+branding:
+  icon: 'alert-triangle'
+  color: 'red'
