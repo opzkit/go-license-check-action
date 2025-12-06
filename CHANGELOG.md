@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/opzkit/go-license-check-action/compare/v1.1.0...v1.1.1) (2025-12-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#89](https://github.com/opzkit/go-license-check-action/issues/89)) ([a175f60](https://github.com/opzkit/go-license-check-action/commit/a175f601f2574d8be67b5dcc8d593458be588a3e))
+
 ## [1.1.0](https://github.com/opzkit/go-license-check-action/compare/v1.0.0...v1.1.0) (2025-12-03)
 
 
