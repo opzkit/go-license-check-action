@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/opzkit/go-license-check-action/compare/v1.1.0...v1.1.1) (2025-12-29)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#89](https://github.com/opzkit/go-license-check-action/issues/89)) ([a175f60](https://github.com/opzkit/go-license-check-action/commit/a175f601f2574d8be67b5dcc8d593458be588a3e))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.66.11 ([#91](https://github.com/opzkit/go-license-check-action/issues/91)) ([28314d0](https://github.com/opzkit/go-license-check-action/commit/28314d08a70f6d3114b6ef9989377fbb345d2a4d))
+
 ## [1.1.0](https://github.com/opzkit/go-license-check-action/compare/v1.0.0...v1.1.0) (2025-12-03)
 
 
