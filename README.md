@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: check go licenses
-      uses: opzkit/go-license-check-action@v1.1.1
+      uses: opzkit/go-license-check-action@v1.1.2
       # optional
       with:
         go-version: '1.19'

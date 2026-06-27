@@ -1,5 +1,43 @@
 # Changelog
 
+## [1.1.2](https://github.com/opzkit/go-license-check-action/compare/v1.1.1...v1.1.2) (2026-06-27)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.3 ([#130](https://github.com/opzkit/go-license-check-action/issues/130)) ([e93aa24](https://github.com/opzkit/go-license-check-action/commit/e93aa24d0c6c2c0ef8cb285700c425322aa18417))
+* **deps:** update actions/checkout action to v7 ([#131](https://github.com/opzkit/go-license-check-action/issues/131)) ([8338e7a](https://github.com/opzkit/go-license-check-action/commit/8338e7ab0c694a64c60bdf914882678482a618b4))
+* **deps:** update actions/checkout digest to df4cb1c ([#129](https://github.com/opzkit/go-license-check-action/issues/129)) ([a1d6c29](https://github.com/opzkit/go-license-check-action/commit/a1d6c293a54c262883c93f53f3fdf9c8224a36a3))
+* **deps:** update actions/create-github-app-token action to v3 ([#112](https://github.com/opzkit/go-license-check-action/issues/112)) ([6135512](https://github.com/opzkit/go-license-check-action/commit/61355122a1131e677dc65d0de9e4afb2b1a09ca6))
+* **deps:** update actions/create-github-app-token digest to 1b10c78 ([#119](https://github.com/opzkit/go-license-check-action/issues/119)) ([cafa398](https://github.com/opzkit/go-license-check-action/commit/cafa398a2afc8f71db5b9090056e7eb092604e07))
+* **deps:** update actions/create-github-app-token digest to 7bd0371 ([#118](https://github.com/opzkit/go-license-check-action/issues/118)) ([4c38df6](https://github.com/opzkit/go-license-check-action/commit/4c38df65d2c9856f0b0fdfffd67c1915ee0cad1f))
+* **deps:** update actions/create-github-app-token digest to bcd2ba4 ([#128](https://github.com/opzkit/go-license-check-action/issues/128)) ([6d0c989](https://github.com/opzkit/go-license-check-action/commit/6d0c989a01b518a96ae2ebe42bfb772c1a1eb114))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#111](https://github.com/opzkit/go-license-check-action/issues/111)) ([50ad36e](https://github.com/opzkit/go-license-check-action/commit/50ad36ea620fea954b3b6fa62803803bebc759a9))
+* **deps:** update actions/setup-go digest to 4a36011 ([#116](https://github.com/opzkit/go-license-check-action/issues/116)) ([1763642](https://github.com/opzkit/go-license-check-action/commit/1763642156defb9d3f6a96ea43d58bbc38321f16))
+* **deps:** update actions/setup-go digest to 4b73464 ([#109](https://github.com/opzkit/go-license-check-action/issues/109)) ([089ffbf](https://github.com/opzkit/go-license-check-action/commit/089ffbf788b555cf61eb6e96b899ef00d5e690c1))
+* **deps:** update actions/setup-go digest to 924ae3a ([#132](https://github.com/opzkit/go-license-check-action/issues/132)) ([639a944](https://github.com/opzkit/go-license-check-action/commit/639a944b4c76dfef1153e03f531da9a3c0fbadf1))
+* **deps:** update actions/setup-python action to v6.3.0 ([#133](https://github.com/opzkit/go-license-check-action/issues/133)) ([d650a1b](https://github.com/opzkit/go-license-check-action/commit/d650a1ba86aea1b17cfa7b29eb3622df170c4d7c))
+* **deps:** update googleapis/release-please-action action to v5 ([#123](https://github.com/opzkit/go-license-check-action/issues/123)) ([5e0227e](https://github.com/opzkit/go-license-check-action/commit/5e0227e8faf0252697602b2f8a8e20d3d1f13d8e))
+* **deps:** update googleapis/release-please-action digest to 5c625bf ([#121](https://github.com/opzkit/go-license-check-action/issues/121)) ([8ae5bc9](https://github.com/opzkit/go-license-check-action/commit/8ae5bc9b1b062df9f179619c8ddef05a6d5d0480))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.25.0 ([#125](https://github.com/opzkit/go-license-check-action/issues/125)) ([ae103de](https://github.com/opzkit/go-license-check-action/commit/ae103deebf4e9fe9e87211b3c5c912cfc31e3829))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.26.0 ([#134](https://github.com/opzkit/go-license-check-action/issues/134)) ([9eb877b](https://github.com/opzkit/go-license-check-action/commit/9eb877bda3d07e0b3a33f3c6e603d28184e03922))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.104.4 ([#117](https://github.com/opzkit/go-license-check-action/issues/117)) ([3c562a5](https://github.com/opzkit/go-license-check-action/commit/3c562a59515df27d98a53801903ac2c5cb05bc4b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.111.0 ([#120](https://github.com/opzkit/go-license-check-action/issues/120)) ([d7a8fa4](https://github.com/opzkit/go-license-check-action/commit/d7a8fa46b5346ce8ad7575f7e1116b7162b16e58))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.126.0 ([#122](https://github.com/opzkit/go-license-check-action/issues/122)) ([3b5ebd1](https://github.com/opzkit/go-license-check-action/commit/3b5ebd1a06023a3c6dde7b49ffccc830553ba738))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.140.0 ([#124](https://github.com/opzkit/go-license-check-action/issues/124)) ([32702f6](https://github.com/opzkit/go-license-check-action/commit/32702f6709e117ad31d8be4c6e3c9141d0bd4163))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.141.2 ([#126](https://github.com/opzkit/go-license-check-action/issues/126)) ([a47af8a](https://github.com/opzkit/go-license-check-action/commit/a47af8a9a61cfc9a90b2d8c1667eac2ba00a8108))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.150.0 ([#127](https://github.com/opzkit/go-license-check-action/issues/127)) ([e1b0cf9](https://github.com/opzkit/go-license-check-action/commit/e1b0cf9078aff2a70004ee1547d96be0b95a944d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#105](https://github.com/opzkit/go-license-check-action/issues/105)) ([934008b](https://github.com/opzkit/go-license-check-action/commit/934008b86212389cf4eb0dc55c3e22f0a93f8983))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.76.2 ([#113](https://github.com/opzkit/go-license-check-action/issues/113)) ([c4c0170](https://github.com/opzkit/go-license-check-action/commit/c4c01705ae5ef0e2abf627df57d5e6e8276230bc))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.86.0 ([#114](https://github.com/opzkit/go-license-check-action/issues/114)) ([308b5a3](https://github.com/opzkit/go-license-check-action/commit/308b5a31b8525c8cda02b573f34549b4cc62d28a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.99.1 ([#115](https://github.com/opzkit/go-license-check-action/issues/115)) ([642b8a6](https://github.com/opzkit/go-license-check-action/commit/642b8a675a119f4009d1c4fde467842b38bc3ffa))
+* remove unnecessary terraform tooling ([#110](https://github.com/opzkit/go-license-check-action/issues/110)) ([eceb0e2](https://github.com/opzkit/go-license-check-action/commit/eceb0e26f7bcd94b27c1925d0ef637a091b85604))
+
+
+### Continuous Integration
+
+* remove unnecessary terraform and tflint setup from pre-commit workflow ([#107](https://github.com/opzkit/go-license-check-action/issues/107)) ([150553a](https://github.com/opzkit/go-license-check-action/commit/150553aa04549036c6988848b40a0cf09153acd6))
+
 ## [1.1.1](https://github.com/opzkit/go-license-check-action/compare/v1.1.0...v1.1.1) (2026-02-16)
 
 
